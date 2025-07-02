@@ -1,0 +1,16 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+    <Script file="SimpleStats.lua"/>
+    
+    <!-- Текстура фона с градиентом -->
+    <Texture name="SimpleStatsBackground" parent="UIParent" hidden="true" file="Interface\AddOns\SimpleStats\gradient">
+        <Color r="0.9" g="0.8" b="0.1" a="0.6"/>
+    </Texture>
+    
+    <!-- Кастомная рамка -->
+    <Frame name="SimpleStatsFrameTemplate" virtual="true">
+        <Backdrop edgeFile="Interface\DialogFrame\UI-DialogBox-Gold-Border" bgFile="Interface\Tooltips\UI-Tooltip-Background">
+            <EdgeSize val="16"/>
+            <BackgroundInsets left="5" right="5" top="5" bottom="5"/>
+        </Backdrop>
+    </Frame>
+</Ui>

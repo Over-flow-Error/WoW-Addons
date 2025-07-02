@@ -1,0 +1,8 @@
+## Interface: 110107
+## Title: TestAddon
+## Version: 1.0.0
+## Author: MegaVolk
+## Notes: Example Addon with gold рамка 	
+## SavedVariables: TestAddonDB
+
+TestAddon.lua
